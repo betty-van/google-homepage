@@ -4,4 +4,4 @@ From The Odin Project's [curriculum]
 Reflection:
 Using Google's Dev Tools, HTML, and CSS, recreate Google's Homepage.
 
-What I've learned:
+What I've learned: This is very difficult. CSS needs to be organized.
