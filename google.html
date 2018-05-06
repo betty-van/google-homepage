@@ -12,30 +12,42 @@
   <body>
     <header>
       <ul>
-        <li><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</li></a>
-        <li><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</li></a>
-        <li><a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</li></a>
-        <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</li></a>
-        <li><a href="https://www.google.com/intl/en/options/">Options</a></li>
-        <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a></li>
+        <div class="top-left-navbar">
+          <li><a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</li></a>
+          <li><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</li></a>
+        </div>
+
+        <div class="top-right-navbar">
+          <li><a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</li></a>
+          <li><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</li></a>
+          <li><a href="https://www.google.com/intl/en/options/"><img alt="Google apps" src="./options.png"</a></li>
+          <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/"><img alt="Sign In" src="./sign-in.png"></a></li>
+        </div>
       </ul>
     </header>
 
-    <a href="https://www.google.com"><img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+    <div class="google-logo">
+      <a href="https://www.google.com"><img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+    </div>
 
-    <form>
+    <form class="search">
       <input type="text"><br>
-      <input type="submit" value="Google Search">
-      <input type ="submit" value="I'm Feeling Lucky">
+      <input class="button" type="submit" value="Google Search">
+      <input class="button" type ="submit" value="I'm Feeling Lucky">
     </form>
 
     <footer>
       <ul>
-        <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
-        <li><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
-        <li><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
-        <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+        <div class="bottom-left-navbar">
+          <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+          <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+        </div>
+
+        <div class="bottom-right-navbar">
+          <li><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
+          <li><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
+          <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+        </div>
       </ul>
     </footer>
   </body>
